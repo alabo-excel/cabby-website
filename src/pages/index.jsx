@@ -94,6 +94,11 @@ export default function Home() {
           </div>
           <div className="flex justify-between mt-20">
             <div className="w-[30%] text-center">
+              <img
+                src="/images/icons/about.png"
+                className="mx-auto w-14"
+                alt=""
+              />
               <h4 className="text-[#1CB93B] text-2xl">About Us</h4>
               <p className="text-base my-3">
                 Find Out How we Started, What Drives Us, and How We’re
@@ -104,6 +109,9 @@ export default function Home() {
               </div>
             </div>
             <div className="w-[30%] text-center">
+              <div className="bg-[#7020C4] w-14 h-14 mx-auto rounded-full p-4">
+                <img src="/images/icons/newsroom.png" className="w-12" alt="" />
+              </div>
               <h4 className="text-[#7020C4] text-2xl">Newsroom</h4>
               <p className="text-base my-3">
                 See Announcements About our Latest Releases, Initiatives, and
@@ -114,6 +122,9 @@ export default function Home() {
               </div>
             </div>
             <div className="w-[30%] text-center">
+              <div className="bg-[#D51986] w-14 h-14 mx-auto rounded-full p-4">
+                <img src="/images/icons/blog.png" className="w-12" alt="" />
+              </div>
               <h4 className="text-[#D51986] text-2xl">Global Citizenship</h4>
               <p className="text-base my-3">
                 Read Obout our Commitment to Making a Positive Impact in The
