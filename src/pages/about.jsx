@@ -143,7 +143,7 @@ const about = () => {
       </div>
       <div className="p-20">
         <h2 className="text-3xl font-bold mb-10">Keep Up With The Latest</h2>
-        <div className="flex">
+        <div className="flex justify-between">
           <div className="w-[30%] text-center">
             <img
               src="/images/icons/relation.png"
