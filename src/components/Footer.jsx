@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white px-20 py-10">
-      <div className="flex justify-between">
+    <div className="bg-black text-white lg:px-20 p-4 py-10">
+      <div className="lg:flex justify-between">
         <img src="/images/logo.png" alt="" />
         <p className="my-auto">Bangladesh Ride Sharing Information</p>
       </div>
       <p className="my-3">Visit Cabby Help Center</p>
-      <div className="flex jsutify-between">
+      <div className="flex sm:flex-wrap lg:flex-nowrap md:flex-wrap jsutify-between">
         <div className="w-1/2">
           <h2 className="font-bold text-2xl my-4">Company</h2>
           <p className="py-2">About us</p>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex my-10">
-        <img src="/images/download.png" className="mr-8" alt="" />
+        <img src="/images/download.png" className="lg:mr-8 mr-1" alt="" />
         <img src="/images/download.png" alt="" />
       </div>
       <div className="flex justify-between">

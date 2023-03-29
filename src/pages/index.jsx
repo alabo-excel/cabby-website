@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import HeaderNav from "@/components/HeaderNav";
 import Head from "next/head";
 // import Image from "next/image";
 
@@ -12,9 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
+        <HeaderNav />
         <div>
-          <img className="w-full h-[100vh]" src="/images/hero.png" alt="" />
-          <div className="bg-white absolute top-[30%] left-20 w-[30%]">
+          <img
+            className="w-full lg:h-[100vh] sm:h-[70vh]"
+            src="/images/hero.png"
+            alt=""
+          />
+          <div className="bg-white absolute lg:top-[30%] top-10 lg:left-20 left-10 lg:w-[30%]">
             <div className="flex justify-evenly text-sm border-b p-4 border-gray">
               <div className="w-1/2 text-center">
                 <img className="w-6 mx-auto" src="/images/drive.png" alt="" />
@@ -52,7 +58,7 @@ export default function Home() {
         </div>
         <div className="relative">
           <img src="/images/business.png" className="w-full" alt="" />
-          <div className="absolute left-20 top-20">
+          <div className="lg:absolute left-20 top-20 sm:p-4 md:p-6">
             <h1 className="text-3xl font-bold">Cabby For Business</h1>
             <p>Transform the way your company moves and feeds its people.</p>
             <button className="rounded-md bg-black text-white p-3 my-4 w-40">
@@ -60,15 +66,15 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="p-20">
+        <div className="lg:p-20 p-4">
           <h1 className="text-3xl font-bold mb-6">
             Wherever You Go, Focus On Safety
           </h1>
-          <div className="flex justify-between">
-            <div className="w-[48%]">
+          <div className="lg:flex justify-between">
+            <div className="lg:w-[48%]">
               <img src="/images/Rectangle12.png" className="w-full" alt="" />
               <h4 className="text-2xl my-3">Our Commitment To Your Safety</h4>
-              <p className="text-base my-3 w-[70%]">
+              <p className="text-base my-3 lg:w-[70%]">
                 With every safety feature and every standard in our Community
                 Guidelines, we're committed to helping to create a safe
                 environment for our users.
@@ -78,12 +84,12 @@ export default function Home() {
                 <p>See all safety features</p>
               </div>
             </div>
-            <div className="w-[48%]">
+            <div className="lg:w-[48%] sm:mt-10 md:mt-10">
               <img src="/images/Rectangle13.png" className="w-full" alt="" />
               <h4 className="text-2xl my-3">
                 Setting 30,000+ Ciities in Motion
               </h4>
-              <p className="text-base my-3 w-[70%]">
+              <p className="text-base my-3 lg:w-[70%]">
                 The app is available in thousands of cities worldwide, so you
                 can request a ride even when you’re far from home.
               </p>
@@ -92,8 +98,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between mt-20">
-            <div className="w-[30%] text-center">
+          <div className="lg:flex justify-between mt-20">
+            <div className="lg:w-[30%] sm:my-6 md:my-6 text-center">
               <img
                 src="/images/icons/about.png"
                 className="mx-auto w-14"
@@ -108,7 +114,7 @@ export default function Home() {
                 <p>Learn More About Cabby</p>
               </div>
             </div>
-            <div className="w-[30%] text-center">
+            <div className="lg:w-[30%] sm:my-6 md:my-6 text-center">
               <div className="bg-[#7020C4] w-14 h-14 mx-auto rounded-full p-4">
                 <img src="/images/icons/newsroom.png" className="w-12" alt="" />
               </div>
@@ -121,7 +127,7 @@ export default function Home() {
                 <p>Go to Newsroom</p>
               </div>
             </div>
-            <div className="w-[30%] text-center">
+            <div className="lg:w-[30%] sm:my-6 md:my-6 text-center">
               <div className="bg-[#D51986] w-14 h-14 mx-auto rounded-full p-4">
                 <img src="/images/icons/blog.png" className="w-12" alt="" />
               </div>
@@ -136,32 +142,32 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="p-20 bg-[#F3F2F2]">
+        <div className="lg:p-20 p-4 bg-[#F3F2F2]">
           <h1 className="text-3xl font-bold mb-6">
             You Will Love This App More
           </h1>
-          <div className="flex justify-between">
-            <div className="flex justify-between border border-gray p-10 bg-white w-[45%]">
+          <div className="lg:flex justify-between">
+            <div className="flex justify-between border border-gray lg:p-10 p-2 bg-white lg:w-[45%]">
               <img src="/images/app-logo.png" alt="" />
-              <div className="text-green-500 text-3xl my-auto w-80 font-bold text-center">
+              <div className="text-green-500 lg:text-3xl text-xl my-auto w-80 font-bold text-center">
                 Download Cabby <br /> User App
               </div>
             </div>
-            <div className="flex justify-between border border-gray p-10 bg-white w-[45%]">
+            <div className="flex justify-between border border-gray lg:p-10 p-2  bg-white lg:w-[45%]">
               <img src="/images/driver-logo.png" alt="" />
-              <div className="text-green-500 text-3xl my-auto w-80 font-bold text-center">
+              <div className="text-green-500 lg:text-3xl text-xl my-auto w-80 font-bold text-center">
                 Download Cabby Driver App
               </div>
             </div>
           </div>
         </div>
-        <div className="p-20">
-          <div className="flex justify-between w-1/2 mx-auto">
-            <button className="p-6 text-white text-2xl w-72 bg-black rounded-md flex justify-between">
+        <div className="lg:p-20 p-4">
+          <div className="lg:flex justify-between lg:w-1/2 mx-auto">
+            <button className="p-6 text-white lg:text-2xl lg:w-72 w-full bg-black sm:my-4 md:my-4 rounded-md flex justify-between">
               <p>Signup For Drive</p>
               <img src="/images/arrow.png" className="my-auto" alt="" />
             </button>
-            <button className="p-6 text-white text-2xl w-72 bg-black rounded-md flex justify-between">
+            <button className="p-6 text-white lg:text-2xl lg:w-72 bg-black w-full sm:my-4 md:my-4 rounded-md flex justify-between">
               <p>Signup For Ride</p>
               <img src="/images/arrow.png" className="my-auto" alt="" />
             </button>
