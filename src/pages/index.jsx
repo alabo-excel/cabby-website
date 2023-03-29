@@ -11,7 +11,150 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <div>
+          <img className="w-full h-[100vh]" src="/images/hero.png" alt="" />
+          <div className="bg-white absolute top-[30%] left-20 w-[30%]">
+            <div className="flex justify-evenly text-sm border-b p-4 border-gray">
+              <div className="w-1/2 text-center">
+                <img className="w-6 mx-auto" src="/images/drive.png" alt="" />
+                <p>Drive or Deliver</p>
+              </div>
+              <div className="w-1/2 text-center">
+                <img className="w-6 mx-auto" src="/images/eat.png" alt="" />
+                <p>Order & Eat</p>
+              </div>
+              <div className="w-1/2 text-center">
+                <img
+                  className="w-6 mx-auto my-1"
+                  src="/images/ride.png"
+                  alt=""
+                />
+                <p>Ride</p>
+              </div>
+            </div>
+            <div className="p-4 text-center">
+              <h1 className="text-4xl">
+                Ride Smart, Ride <br /> Fast, Pay Less
+              </h1>
+              <p className="text-sm my-4">
+                Drive on The Platform With The Largest <br /> Network of Active
+                Riders.
+              </p>
+              <button className="rounded-md bg-black text-white p-3 my-4 w-40">
+                Signup to Drive
+              </button>
+              <p className="text-sm underline">
+                Learn More About Driving and Delivering
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="relative">
+          <img src="/images/business.png" className="w-full" alt="" />
+          <div className="absolute left-20 top-20">
+            <h1 className="text-3xl font-bold">Cabby For Business</h1>
+            <p>Transform the way your company moves and feeds its people.</p>
+            <button className="rounded-md bg-black text-white p-3 my-4 w-40">
+              How Its Work
+            </button>
+          </div>
+        </div>
+        <div className="p-20">
+          <h1 className="text-3xl font-bold mb-6">
+            Wherever You Go, Focus On Safety
+          </h1>
+          <div className="flex justify-between">
+            <div className="w-[48%]">
+              <img src="/images/Rectangle12.png" className="w-full" alt="" />
+              <h4 className="text-2xl my-3">Our Commitment To Your Safety</h4>
+              <p className="text-base my-3 w-[70%]">
+                With every safety feature and every standard in our Community
+                Guidelines, we're committed to helping to create a safe
+                environment for our users.
+              </p>
+              <div className="flex justify-between text-blue-500 underline">
+                <p>Read About our Community Guidelines</p>
+                <p>See all safety features</p>
+              </div>
+            </div>
+            <div className="w-[48%]">
+              <img src="/images/Rectangle13.png" className="w-full" alt="" />
+              <h4 className="text-2xl my-3">
+                Setting 30,000+ Ciities in Motion
+              </h4>
+              <p className="text-base my-3 w-[70%]">
+                The app is available in thousands of cities worldwide, so you
+                can request a ride even when you’re far from home.
+              </p>
+              <div className="flex justify-between text-blue-500 underline mt-9">
+                <p>View All Cities</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-between mt-20">
+            <div className="w-[30%] text-center">
+              <h4 className="text-[#1CB93B] text-2xl">About Us</h4>
+              <p className="text-base my-3">
+                Find Out How we Started, What Drives Us, and How We’re
+                Reimagining How The World Moves.
+              </p>
+              <div className="text-blue-500 underline mt-6">
+                <p>Learn More About Cabby</p>
+              </div>
+            </div>
+            <div className="w-[30%] text-center">
+              <h4 className="text-[#7020C4] text-2xl">Newsroom</h4>
+              <p className="text-base my-3">
+                See Announcements About our Latest Releases, Initiatives, and
+                Partnerships.
+              </p>
+              <div className="text-blue-500 underline mt-6">
+                <p>Go to Newsroom</p>
+              </div>
+            </div>
+            <div className="w-[30%] text-center">
+              <h4 className="text-[#D51986] text-2xl">Global Citizenship</h4>
+              <p className="text-base my-3">
+                Read Obout our Commitment to Making a Positive Impact in The
+                Cities We ServeI
+              </p>
+              <div className="text-blue-500 underline mt-6">
+                <p>See our Oartnerships</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-20 bg-[#F3F2F2]">
+          <h1 className="text-3xl font-bold mb-6">
+            You Will Love This App More
+          </h1>
+          <div className="flex justify-between">
+            <div className="flex justify-between border border-gray p-10 bg-white w-[45%]">
+              <img src="/images/app-logo.png" alt="" />
+              <div className="text-green-500 text-3xl my-auto w-80 font-bold text-center">
+                Download Cabby <br /> User App
+              </div>
+            </div>
+            <div className="flex justify-between border border-gray p-10 bg-white w-[45%]">
+              <img src="/images/driver-logo.png" alt="" />
+              <div className="text-green-500 text-3xl my-auto w-80 font-bold text-center">
+                Download Cabby Driver App
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-20">
+          <div className="flex justify-between w-1/2 mx-auto">
+            <button className="p-6 text-white text-2xl w-72 bg-black rounded-md flex justify-between">
+              <p>Signup For Drive</p>
+              <img src="/images/arrow.png" className="my-auto" alt="" />
+            </button>
+            <button className="p-6 text-white text-2xl w-72 bg-black rounded-md flex justify-between">
+              <p>Signup For Ride</p>
+              <img src="/images/arrow.png" className="my-auto" alt="" />
+            </button>
+          </div>
+        </div>
       </main>
     </>
   );
