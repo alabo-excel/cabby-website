@@ -70,7 +70,7 @@ const Footer = () => {
         <img src="/images/download.png" className="lg:mr-8 mr-1" alt="" />
         <img src="/images/download.png" alt="" />
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between ">
         <p>© 2023 Cabby Technologies Inc.</p>
         <div className="flex justify-between w-80">
           <p>Privacy</p>
