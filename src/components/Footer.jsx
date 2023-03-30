@@ -1,18 +1,25 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white lg:px-40 p-4 py-10">
+    <div className="bg-black w-full text-white lg:px-40 p-4 py-10">
       <div className="lg:flex justify-between">
-        <img src="/images/logo.png" alt="" />
+        <Link href={"/"}>
+          <img src="/images/logo.png" alt="" />
+        </Link>
         <p className="my-auto">Bangladesh Ride Sharing Information</p>
       </div>
       <p className="my-3">Visit Cabby Help Center</p>
       <div className="flex sm:flex-wrap lg:flex-nowrap md:flex-wrap jsutify-between">
         <div className="w-1/2">
           <h2 className="font-bold text-2xl my-4">Company</h2>
-          <p className="py-2">About us</p>
-          <p className="py-2">Our Offerings</p>
+          <Link href={"/about"}>
+            <p className="py-2">About us</p>
+          </Link>
+          <Link href={"/our-offering"}>
+            <p className="py-2">Our Offerings</p>
+          </Link>
           <p className="py-2">Newsroom</p>
           <p className="py-2">Investors</p>
           <p className="py-2">Blog</p>
@@ -22,7 +29,9 @@ const Footer = () => {
         </div>
         <div className="w-1/2">
           <h2 className="font-bold text-2xl my-4">Products</h2>
-          <p className="py-2">Ride</p>
+          <Link href={"/how-to-use"}>
+            <p className="py-2">Ride</p>
+          </Link>
           <p className="py-2">Drive</p>
           <p className="py-2">Driver</p>
           <p className="py-2">Eat</p>
@@ -31,8 +40,12 @@ const Footer = () => {
         </div>
         <div className="w-1/2">
           <h2 className="font-bold text-2xl my-4">Global citizenship</h2>
-          <p className="py-2">Safety</p>
-          <p className="py-2">Diversity and Inclusion</p>
+          <Link href={"/global-citizenship"}>
+            <p className="py-2">Safety</p>
+          </Link>
+          <Link href={"/global-citizenship"}>
+            <p className="py-2">Diversity and Inclusion</p>
+          </Link>
         </div>
         <div className="w-32">
           <h2 className="font-bold text-2xl my-4">Travel</h2>

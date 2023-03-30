@@ -22,7 +22,6 @@ const SliderComp = () => {
           autoplaySpeed: 100,
           arrows: true,
           dots: true,
-
         },
       },
       {
@@ -39,11 +38,13 @@ const SliderComp = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: false,
-          autoplay: false,
+          infinite: true,
+          autoplay: true,
           autoplaySpeed: 2000,
+          arrows: true,
+          dots: true,
         },
       },
     ],
@@ -71,7 +72,6 @@ const SliderComp = () => {
           <p className="my-4">Newer cars with extra legroom</p>
           <p className="text-blue-500 underline">Learn More</p>
         </div>
-        
       </Slider>
     </div>
   );
