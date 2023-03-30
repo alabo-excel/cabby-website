@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white lg:px-20 p-4 py-10">
+    <div className="bg-black text-white lg:px-40 p-4 py-10">
       <div className="lg:flex justify-between">
         <img src="/images/logo.png" alt="" />
         <p className="my-auto">Bangladesh Ride Sharing Information</p>

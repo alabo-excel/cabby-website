@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderNav = () => {
   return (
-    <div className="flex fixed justify-between top-0 w-full bg-black px-20 py-4 text-white z-10">
+    <div className="flex fixed justify-between top-0 w-full bg-black lg:px-20 py-4 text-white z-10">
       <div className="flex w-96 justify-between">
         <img src="/images/logo.png" alt="" />
         <p className="my-auto">Safety</p>
