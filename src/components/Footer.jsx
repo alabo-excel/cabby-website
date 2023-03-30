@@ -12,8 +12,8 @@ const Footer = () => {
       </div>
       <p className="my-3">Visit Cabby Help Center</p>
       <div className="flex sm:flex-wrap lg:flex-nowrap md:flex-wrap jsutify-between">
-        <div className="w-1/2">
-          <h2 className="font-bold text-2xl my-4">Company</h2>
+        <div className="lg:w-1/2 w-full my-6">
+          <h2 className="font-bold text-2xl sm:text-xl my-4">Company</h2>
           <Link href={"/about"}>
             <p className="py-2">About us</p>
           </Link>
@@ -27,8 +27,8 @@ const Footer = () => {
           <p className="py-2">AI</p>
           <p className="py-2">Gift cards</p>
         </div>
-        <div className="w-1/2">
-          <h2 className="font-bold text-2xl my-4">Products</h2>
+        <div className="lg:w-1/2 w-full my-6">
+          <h2 className="font-bold text-2xl  sm:text-xl my-4">Products</h2>
           <Link href={"/how-to-use"}>
             <p className="py-2">Ride</p>
           </Link>
@@ -38,8 +38,10 @@ const Footer = () => {
           <p className="py-2">Cabby for Business</p>
           <p className="py-2">Cabby Freight</p>
         </div>
-        <div className="w-1/2">
-          <h2 className="font-bold text-2xl my-4">Global citizenship</h2>
+        <div className="lg:w-1/2 w-full my-6">
+          <h2 className="font-bold text-2xl  sm:text-xl my-4">
+            Global citizenship
+          </h2>
           <Link href={"/global-citizenship"}>
             <p className="py-2">Safety</p>
           </Link>
@@ -48,7 +50,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-32">
-          <h2 className="font-bold text-2xl my-4">Travel</h2>
+          <h2 className="font-bold  sm:text-xl text-2xl my-4">Travel</h2>
           <p className="py-2">Airports</p>
           <p className="py-2">Cities</p>
         </div>
@@ -61,7 +63,7 @@ const Footer = () => {
           <img src="/images/icons/Vector-1.png" alt="" />
           <img src="/images/icons/Vector.png" alt="" />
         </div>
-        <div className="flex my-auto">
+        <div className="flex my-auto sm:mt-8">
           <img src="/images/Vector.png" className="h-6 mx-2" alt="" />
           <p>Dhaka</p>
         </div>

@@ -44,7 +44,7 @@ const globalcitizenship = () => {
           <div className="lg:p-16 p-8 text-center bg-[#F3F2F2] my-10">
             <div className="lg:w-1/2 mx-auto">
               <p>
-                “We’re excited to be one of Uber's early partners to mitigate
+                “We’re excited to be one of Cabby's early partners to mitigate
                 traffic congestion and improve infrastructure.”
               </p>
               <p className="text-[#1CB93B] mt-6">
@@ -90,7 +90,7 @@ const globalcitizenship = () => {
               <h2 className="text-3xl">Distracted Driving</h2>
               <p className="my-6">
                 To help reduce Brazil’s 400,000 road crashes every year, soccer
-                players from Clube Atlético Paranaense teamed up with Uber to
+                players from Clube Atlético Paranaense teamed up with Cabby to
                 discourage texting while driving.
               </p>
               <button className="p-3 text-white bg-black rounded-md">
@@ -123,7 +123,7 @@ const globalcitizenship = () => {
                 Unique backgrounds and diverse perspectives are not only
                 celebrated but also put to use, helping to build resources that
                 connect users and make life easier for people in the 60+
-                countries where Uber is available.
+                countries where Cabby is available.
               </p>
               {/* <button className="p-3 text-white bg-black rounded-md">
               Learn More
@@ -138,7 +138,7 @@ const globalcitizenship = () => {
               <h2 className="text-3xl">Opportunity for all</h2>
               <p className="my-6">
                 Whether it’s helping underrepresented users or simplifying
-                everyday life, the Uber platform can make a difference when it’s
+                everyday life, the Cabby platform can make a difference when it’s
                 accessible to more people.
               </p>
               <button className="p-3 text-white bg-black rounded-md">
@@ -149,7 +149,7 @@ const globalcitizenship = () => {
           <div className="lg:p-16 p-8 text-center bg-[#F3F2F2] my-10">
             <div className="lg:w-1/2 mx-auto">
               <p>
-                “Uber is the single best advancement for the mobility of blind
+                “Cabby is the single best advancement for the mobility of blind
                 people in the past decade.”
               </p>
               <p className="text-[#1CB93B] mt-6">

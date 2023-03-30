@@ -68,7 +68,7 @@ const SliderComp = () => {
         </div>
         <div className="text-center">
           <img src="/images/single.png" className="mx-auto" alt="" />
-          <h4 className="text-[#1CB93B] text-3xl">Uber Comfort</h4>
+          <h4 className="text-[#1CB93B] text-3xl">Cabby Comfort</h4>
           <p className="my-4">Newer cars with extra legroom</p>
           <p className="text-blue-500 underline">Learn More</p>
         </div>

@@ -146,15 +146,15 @@ export default function Home() {
           </h1>
           <div className="lg:flex justify-between">
             <div className="flex justify-between border border-gray lg:p-10 p-2 bg-white lg:w-[45%]">
-              <img src="/images/app-logo.png" alt="" />
-              <div className="text-green-500 lg:text-3xl text-xl my-auto w-80 font-bold text-center">
+              <img src="/images/app-logo.png" className="sm:w-20" alt="" />
+              <div className="text-black lg:text-3xl text-xl my-auto w-80 font-bold text-center">
                 Download Cabby <br /> User App
               </div>
             </div>
             <div className="flex justify-between border border-gray lg:p-10 p-2  bg-white lg:w-[45%]">
-              <img src="/images/driver-logo.png" alt="" />
-              <div className="text-green-500 lg:text-3xl text-xl my-auto w-80 font-bold text-center">
-                Download Cabby Driver App
+              <img src="/images/driver-logo.png" className="sm:w-20" alt="" />
+              <div className="text-black lg:text-3xl text-xl my-auto w-80 font-bold text-center">
+                Download Cabby <br /> Driver App
               </div>
             </div>
           </div>

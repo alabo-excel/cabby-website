@@ -139,7 +139,7 @@ const about = () => {
                 reflects the diversity of the cities we serve—where everyone can
                 be their authentic self, and where that authenticity is
                 celebrated as a strength. By creating an environment where
-                people from every background can thrive, we’ll make Uber a
+                people from every background can thrive, we’ll make Cabby a
                 better company—for our employees and our customers.
               </p>
               <p className="text-blue-500 underline my-6">
@@ -150,7 +150,7 @@ const about = () => {
               <img src="/images/acting.png" className="w-full" alt="" />
               <h4 className="text-xl my-3">Acting With Integrity</h4>
               <p>
-                Uber's Ethics & Compliance Program Charter outlines our
+                Cabby's Ethics & Compliance Program Charter outlines our
                 commitment to integrity at the highest levels within the
                 company. Transparency is critical to an ethical culture; we
                 achieve this through our Integrity Helpline and suite of
@@ -197,7 +197,7 @@ const about = () => {
               </div>
               <h4 className="text-[#D51986] text-2xl">Blog</h4>
               <p className="text-base my-3">
-                Find new places to explore and learn about Uber products,
+                Find new places to explore and learn about Cabby products,
                 partnerships, and more.
               </p>
               <div className="text-blue-500 underline mt-6">

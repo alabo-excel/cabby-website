@@ -30,7 +30,7 @@ const ouroffering = () => {
             </h3>
             <div className="lg:flex justify-between">
               <div className="lg:w-[45%]">
-                Uber is a technology company whose mission is to reimagine the
+                Cabby is a technology company whose mission is to reimagine the
                 way the world moves for the better. Our technology helps us
                 develop and maintain multisided platforms that match consumers
                 looking for rides and independent providers of ride services, as
@@ -41,7 +41,7 @@ const ouroffering = () => {
                 We also connect consumers and restaurants, grocers, and other
                 merchants so they can buy and sell meals, groceries, and other
                 items, then we match them with independent delivery service
-                providers. Plus, Uber connects shippers and carriers in the
+                providers. Plus, Cabby connects shippers and carriers in the
                 freight industry. Our technology helps people connect and move
                 in over 70 countries and 10,000 cities around the world.
               </div>
@@ -109,7 +109,7 @@ const ouroffering = () => {
                 Helping Businesses Move Ahead
               </h4>
               <p className="text-base my-3">
-                See how Uber Freight and Uber for Business help organizations
+                See how Cabby Freight and Cabby for Business help organizations
                 across the world.
               </p>
               <div className="text-blue-500 underline mt-6">
@@ -184,7 +184,7 @@ const ouroffering = () => {
                 <img src="/images/food1.png" className="w-full" alt="" />
                 <h4 className="text-xl my-3">Cabby Eats</h4>
                 <p>
-                  Order from your favorite restaurants, online or with the Uber
+                  Order from your favorite restaurants, online or with the Cabby
                   app. The restaurants will prepare your order, and a nearby
                   delivery person will deliver it to your door.
                 </p>
@@ -197,7 +197,7 @@ const ouroffering = () => {
                   Cabby Eats makes a real impact on your restaurant business.
                   When your food is featured in the app, new customers can
                   discover it and loyal customers can enjoy it more often.
-                  Delivery people using the Uber app deliver the food fast,
+                  Delivery people using the Cabby app deliver the food fast,
                   maintaining the best possible food quality.
                 </p>
                 <p className="text-blue-500 underline my-6">
@@ -221,7 +221,7 @@ const ouroffering = () => {
                 <h4 className="text-xl my-3">Deliver with Cabby</h4>
                 <p>
                   Make money by delivering food orders that people crave, and
-                  other items using the Uber Eats app—all while exploring your
+                  other items using the Cabby Eats app—all while exploring your
                   city.
                 </p>
                 <p className="text-blue-500 underline my-6">
@@ -281,7 +281,7 @@ const ouroffering = () => {
                 <img src="/images/move2.png" className="w-full" alt="" />
                 <h4 className="text-xl my-3">Cabby for Business</h4>
                 <p>
-                  Whether it’s employee travel or customer rides, Uber for
+                  Whether it’s employee travel or customer rides, Cabby for
                   Business gives you an easy way to manage your ground
                   transportation needs. Built for work, it offers a clear view
                   into employee trip activity with automated billing, expensing,

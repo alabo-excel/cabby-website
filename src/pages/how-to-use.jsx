@@ -109,7 +109,7 @@ const howtouse = () => {
         <div className="bg-[#F3F2F2] lg:py-20 lg:px-40 sm:p-4 md:p-4">
           <h2 className="text-4xl">Sign Up Today</h2>
           <p>
-            Ready to experience Uber for yourself? Take your first trip as a
+            Ready to experience Cabby for yourself? Take your first trip as a
             rider, or get on the road to earning as a driver.
           </p>
           <div className="lg:flex justify-between lg:w-1/2 mt-10">
