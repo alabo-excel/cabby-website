@@ -1,5 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
+import Link from "next/link";
+
 // import Image from "next/image";
 
 export default function Home() {
@@ -45,16 +47,18 @@ export default function Home() {
                 Drive on The Platform With The Largest <br /> Network of Active
                 Riders.
               </p>
-              <button className="rounded-md bg-black text-white p-3 my-4 w-40">
-                Signup to Drive
-              </button>
-              <p className="text-sm underline">
+              <Link href={'/'}>
+                <button className="rounded-md bg-black text-white p-3 my-4 w-40">
+                  How it Works
+                </button>
+              </Link>
+              {/* <p className="text-sm underline">
                 Learn More About Driving and Delivering
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <img src="/images/business.png" className="w-full sm:hidden" alt="" />
           <div className="lg:absolute left-20 top-20 sm:p-4 md:p-6">
             <h1 className="text-3xl font-bold">Cabby For Business</h1>
@@ -63,7 +67,7 @@ export default function Home() {
               How Its Work
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="lg:p-20 p-4">
           <h1 className="text-3xl font-bold mb-6">
             Wherever You Go, Focus On Safety
@@ -79,13 +83,13 @@ export default function Home() {
               </p>
               <div className="flex justify-between text-blue-500 underline">
                 <p>Read About our Community Guidelines</p>
-                <p>See all safety features</p>
+                {/* <p>See all safety features</p> */}
               </div>
             </div>
-            <div className="lg:w-[48%] sm:mt-10 md:mt-10">
+            <div className="lg:w-[48%] lg:mt-0 sm:mt-10 md:mt-10">
               <img src="/images/Rectangle13.png" className="w-full" alt="" />
               <h4 className="text-2xl my-3">
-                Setting 30,000+ Ciities in Motion
+                Setting 30,000+ Cities in Motion
               </h4>
               <p className="text-base my-3 lg:w-[70%]">
                 The app is available in thousands of cities worldwide, so you
@@ -109,7 +113,8 @@ export default function Home() {
                 Reimagining How The World Moves.
               </p>
               <div className="text-blue-500 underline mt-6">
-                <p>Learn More About Cabby</p>
+                <Link href={'/about'}>
+                  <p>Learn More About Cabby</p></Link>
               </div>
             </div>
             <div className="lg:w-[30%] sm:my-6 md:my-6 text-center">
@@ -135,7 +140,9 @@ export default function Home() {
                 Cities We ServeI
               </p>
               <div className="text-blue-500 underline mt-6">
-                <p>See our Oartnerships</p>
+                <Link href={'/global-citizenship'}>
+                  <p>Global Citizenship</p>
+                </Link>
               </div>
             </div>
           </div>
@@ -159,7 +166,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="lg:p-20 p-4">
+        {/* <div className="lg:p-20 p-4">
           <div className="lg:flex justify-between lg:w-1/2 mx-auto">
             <button className="p-6 text-white lg:text-2xl lg:w-72 w-full bg-black sm:my-4 md:my-4 rounded-md flex justify-between">
               <p>Signup For Drive</p>
@@ -170,7 +177,7 @@ export default function Home() {
               <img src="/images/arrow.png" className="my-auto" alt="" />
             </button>
           </div>
-        </div>
+        </div> */}
       </Layout>
     </>
   );

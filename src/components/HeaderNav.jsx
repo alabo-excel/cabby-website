@@ -19,14 +19,17 @@ const HeaderNav = () => {
             <Dropdown.Item>Settings</Dropdown.Item>
             <Dropdown.Item>About</Dropdown.Item>
           </Dropdown> */}
-          <p className="my-auto">Safety</p>
-          <p className="my-auto">Help</p>
+          {/* <p className="my-auto">Safety</p>
+          <p className="my-auto">Help</p> */}
         </div>
-        <div className="w-96 flex justify-between">
-          <p className="my-auto">Products</p>
-          <p className="my-auto">Login</p>
-          <button className="bg-white rounded-full p-2 text-black w-20">
-            Signup
+        <div className="w-52 flex justify-between">
+          {/* <p className="my-auto">Products</p>
+          <p className="my-auto">Login</p> */}
+          <Link href={'/about'}>
+            <p className="my-2">About Us</p>
+          </Link>
+          <button className="bg-white rounded-full p-2 px-6 text-black">
+            Get App
           </button>
         </div>
       </div>
@@ -35,11 +38,13 @@ const HeaderNav = () => {
           <img src="/images/logo.png" className="w-20 mt-2 my-auto" alt="" />
         </Link>
         <div className="flex w-1/2 justify-between text-sm">
-          <p className="my-auto text-sm">Login</p>
+          <Link href={'/about'}>
+            <p className="my-2">About Us</p>
+          </Link>
           <button className="bg-white rounded-full p-2 w-20 text-black ">
-            Signup
+            Get App
           </button>
-          <div className="my-auto">
+          {/* <div className="my-auto">
             <svg
               width="16"
               height="16"
@@ -50,7 +55,7 @@ const HeaderNav = () => {
               <path d="M2 6h20v3H2V6Z" fill="currentColor"></path>,
               <path d="M2 15h20v3H2v-3Z" fill="currentColor"></path>
             </svg>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
