@@ -18,10 +18,10 @@ const howtouse = () => {
             Our core service is developing technology that connects drivers and
             riders on demand. Here’s how the app works, step by step:
           </p>
-          <button className="p-3 rounded-md bg-black text-white w-40 flex justify-between">
+          {/* <button className="p-3 rounded-md bg-black text-white w-40 flex justify-between">
             <img src="/images/watch.png" alt="" />
             How To Use
-          </button>
+          </button> */}
         </div>
         <div className="lg:p-20 p-4 lg:mx-20 relative">
           <img
@@ -107,7 +107,7 @@ const howtouse = () => {
           </div>
         </div>
         <div className="bg-[#F3F2F2] lg:py-20 lg:px-40 sm:p-4 md:p-4">
-          <h2 className="text-4xl">Sign Up Today</h2>
+          <h2 className="text-4xl">Download App Now</h2>
           <p>
             Ready to experience Cabby for yourself? Take your first trip as a
             rider, or get on the road to earning as a driver.
@@ -138,7 +138,7 @@ const howtouse = () => {
             <img src="/images/app.png" className="" alt="" />
           </div>
         </div>
-        <div className="lg:flex justify-between lg:mx-40 mx-4 lg:py-20 py-10">
+        {/* <div className="lg:flex justify-between lg:mx-40 mx-4 lg:py-20 py-10">
           <div className="lg:w-[48%]">
             <img src="/images/rider-app.png" className="w-full" alt="" />
             <h4 className="text-xl my-3">Rider App</h4>
@@ -160,7 +160,7 @@ const howtouse = () => {
               Partner with Cabby Eats
             </p>
           </div>
-        </div>
+        </div> */}
       </Layout>
     </>
   );

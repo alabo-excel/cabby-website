@@ -56,7 +56,7 @@ const SliderComp = () => {
           <img src="/images/single.png" className="mx-auto" alt="" />
           <h4 className="text-[#1CB93B] text-3xl">Cabby -X</h4>
           <p className="my-4">Affordable rides, all to yourself</p>
-          <p className="text-blue-500 underline">Learn More</p>
+          {/* <p className="text-blue-500 underline">Learn More</p> */}
         </div>
         <div className="text-center">
           <img src="/images/share.png" className="mx-auto" alt="" />
@@ -64,13 +64,13 @@ const SliderComp = () => {
           <p className="my-4">
             Share the ride with up to one co-rider at a time
           </p>
-          <p className="text-blue-500 underline">Learn More</p>
+          {/* <p className="text-blue-500 underline">Learn More</p> */}
         </div>
         <div className="text-center">
           <img src="/images/single.png" className="mx-auto" alt="" />
           <h4 className="text-[#1CB93B] text-3xl">Cabby Comfort</h4>
           <p className="my-4">Newer cars with extra legroom</p>
-          <p className="text-blue-500 underline">Learn More</p>
+          {/* <p className="text-blue-500 underline">Learn More</p> */}
         </div>
       </Slider>
     </div>

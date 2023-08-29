@@ -22,15 +22,24 @@ const HeaderNav = () => {
           {/* <p className="my-auto">Safety</p>
           <p className="my-auto">Help</p> */}
         </div>
-        <div className="w-52 flex justify-between">
+        <div className="w-[30%] flex justify-between">
           {/* <p className="my-auto">Products</p>
           <p className="my-auto">Login</p> */}
           <Link href={'/about'}>
             <p className="my-2">About Us</p>
           </Link>
-          <button className="bg-white rounded-full p-2 px-6 text-black">
-            Get App
-          </button>
+          <Link href={'/our-offering'}>
+            <p className="my-2">Services</p>
+          </Link>
+
+          <Link href={'/how-to-use'}>
+            <p className="my-2">How to Use</p>
+          </Link>
+          <Link href={'/#download'}>
+            <button className="bg-white rounded-full p-2 px-6 text-black">
+              Get App
+            </button>
+          </Link>
         </div>
       </div>
       <div className="lg:hidden flex fixed justify-between top-0 w-full bg-black text-white p-4 z-10">

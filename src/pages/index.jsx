@@ -147,7 +147,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="lg:p-20 p-4 bg-[#F3F2F2]">
+        <div id="download" className="lg:p-20 p-4 bg-[#F3F2F2]">
           <h1 className="text-3xl font-bold mb-6">
             You Will Love This App More
           </h1>
