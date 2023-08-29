@@ -20,8 +20,11 @@ const Footer = () => {
           <Link href={"/our-offering"}>
             <p className="py-2">Services</p>
           </Link>
+          <Link href={"/contact"}>
+            <p className="py-2">Contact</p>
+          </Link>
           {/* <p className="py-2">Newsroom</p> */}
-          <p className="py-2">Patners</p>
+          {/* <p className="py-2">Patners</p> */}
           <p className="py-2">Blog</p>
           <p className="py-2">Careers</p>
           {/* <p className="py-2">AI</p>

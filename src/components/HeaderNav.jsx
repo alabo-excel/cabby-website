@@ -22,7 +22,7 @@ const HeaderNav = () => {
           {/* <p className="my-auto">Safety</p>
           <p className="my-auto">Help</p> */}
         </div>
-        <div className="w-[30%] flex justify-between">
+        <div className="w-[40%] flex justify-between">
           {/* <p className="my-auto">Products</p>
           <p className="my-auto">Login</p> */}
           <Link href={'/about'}>
@@ -34,6 +34,10 @@ const HeaderNav = () => {
 
           <Link href={'/how-to-use'}>
             <p className="my-2">How to Use</p>
+          </Link>
+
+          <Link href={'/contact'}>
+            <p className="my-2">Contact</p>
           </Link>
           <Link href={'/#download'}>
             <button className="bg-white rounded-full p-2 px-6 text-black">
