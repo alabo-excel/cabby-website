@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 const about = () => {
   return (
@@ -14,12 +15,12 @@ const about = () => {
       <Layout>
         <div className="sm:mt-16">
           <img
-            src="/images/about.png"
+            src="/images/about.jpg"
             className="w-full lg:h-[90vh] h-[40vh]"
             alt=""
           />
-          <div className="lg:w-80 text-center absolute lg:top-[40%] top-40 lg:right-44 text-black text-5xl font-bold">
-            About Our Cabby
+          <div className="lg:w-80 text-center absolute lg:top-[40%] top-40 lg:left-44 text-white text-5xl font-extrabold">
+            About Cabby
           </div>
         </div>
         <div className="lg:py-20 px-4 py-8 lg:px-40">
@@ -34,10 +35,10 @@ const about = () => {
             the ways you want to earn. Across the entire world. In real time. At
             the incredible speed of now.
           </p>
-          <button className="flex py-3 mt-10 border-b border-gray justify-between w-80">
+          {/* <button className="flex py-3 mt-10 border-b border-gray justify-between w-80">
             <p> Read Our Full Mission Statement</p>
             <img src="/images/arrow-dwn.png" className="my-auto" alt="" />
-          </button>
+          </button> */}
         </div>
         <div className="lg:py-20 px-4 lg:px-40 relative">
           <img src="/images/ceo.png" className="w-full" alt="" />
@@ -72,12 +73,12 @@ const about = () => {
                 a priority and partnering with NGOs and the private sector to
                 help expedite a clean and just energy transition.
               </p>
-              <button className="p-3 text-white bg-black rounded-md">
+              {/* <button className="p-3 text-white bg-black rounded-md">
                 Learn More
-              </button>
+              </button> */}
             </div>
           </div>
-          <div className="lg:flex justify-between lg:mt-20 mt-6">
+          {/* <div className="lg:flex justify-between lg:mt-20 mt-6">
             <div className="lg:w-[40%]">
               <img src="/images/rides.png" className="w-full" alt="" />
             </div>
@@ -94,31 +95,29 @@ const about = () => {
                 How App Work
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="lg:px-40 px-4 lg:py-20 lg:flex justify-between">
           <div className="lg:w-[40%] lg:order-1">
             <img src="/images/secure.png" className="w-full" alt="" />
           </div>
           <div className="lg:w-[58%] my-auto lg:order-0">
-            <h2 className="text-3xl">Sustainability</h2>
+            <h2 className="text-3xl">Rides and Beyond</h2>
             <p className="lg:my-10 my-4">
-              Cabby is committing to becoming a fully electric, zero-emission
-              platform by 2040, with 100% of rides taking place in zero-emission
-              vehicles, on public transit, or with micromobility. It is our
-              responsibility as the largest mobility platform in the world to
-              more aggressively tackle the challenge of climate change. We will
-              do this by offering riders more ways to ride green, helping
-              drivers go electric, making transparency a priority and partnering
-              with NGOs and the private sector to help expedite a clean and just
-              energy transition.
+              In addition to helping riders find a way to go from point A to
+              point B, we're helping people order food quickly and affordably,
+              removing barriers to healthcare, creating new freight-booking
+              solutions, and helping companies provide a seamless employee
+              travel experience. And always helping drivers and couriers earn.
             </p>
-            <button className="p-3 text-white bg-black rounded-md">
-              Learn More
-            </button>
+            <Link href={'/how-to-use'}>
+              <button className="p-3 text-white bg-black rounded-md">
+                How to Use
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="lg:py-20 lg:px-40 px-4">
+        {/* <div className="lg:py-20 lg:px-40 px-4">
           <h2 className="text-3xl font-bold lg:mb-10 sm:my-10">Company Information</h2>
           <div className="lg:flex justify-between">
             <div className="lg:w-[32%]">
@@ -159,9 +158,9 @@ const about = () => {
               <p className="text-blue-500 underline my-6">Learn More</p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="lg:py-20 lg:px-40 px-4">
-          <h2 className="text-3xl font-bold mb-10">Keep Up With The Latest</h2>
+          {/* <h2 className="text-3xl font-bold mb-10">Keep Up With The Latest</h2> */}
           <div className="lg:flex justify-between">
             <div className="lg:w-[30%] text-center">
               <img
@@ -174,9 +173,9 @@ const about = () => {
                 Download financial reports, see next-quarter plans, and read
                 about our corporate responsibility initiatives.
               </p>
-              <div className="text-blue-500 underline mt-6">
+              {/* <div className="text-blue-500 underline mt-6">
                 <p>Go to Newsroom</p>
-              </div>
+              </div> */}
             </div>
             <div className="lg:w-[30%] text-center">
               <div className="bg-[#7020C4] w-14 h-14 mx-auto rounded-full p-4">
@@ -187,9 +186,9 @@ const about = () => {
                 Get announcements about partnerships, app updates, initiatives,
                 and more near you and around the world.
               </p>
-              <div className="text-blue-500 underline mt-6">
+              {/* <div className="text-blue-500 underline mt-6">
                 <p>Read our posts</p>
-              </div>
+              </div> */}
             </div>
             <div className="lg:w-[30%] text-center">
               <div className="bg-[#D51986] w-14 h-14 mx-auto rounded-full p-4">
@@ -200,9 +199,9 @@ const about = () => {
                 Find new places to explore and learn about Cabby products,
                 partnerships, and more.
               </p>
-              <div className="text-blue-500 underline mt-6">
+              {/* <div className="text-blue-500 underline mt-6">
                 <p>Learn more</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -57,7 +57,7 @@ const Footer = () => {
         <div>
           <div className="flex my-10">
             <img src="/images/download.png" className="lg:mr-8 mr-1" alt="" />
-            <img src="/images/pngwing.com.png" className="w-40 border border-white rounded-md" alt="" />
+            <img src="/images/pngwing.com.png" className="w-40 border border-white rounded-xl" alt="" />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Footer = () => {
           <img src="/images/icons/Vector-3.png" alt="" />
           <img src="/images/icons/Vector-2.png" alt="" />
           <img src="/images/icons/Vector-1.png" alt="" />
-          <img src="/images/icons/Vector.png" alt="" />
+          {/* <img src="/images/icons/Vector.png" alt="" /> */}
         </div>
         {/* <div className="flex my-auto sm:mt-8">
           <img src="/images/Vector.png" className="h-6 mx-2" alt="" />
