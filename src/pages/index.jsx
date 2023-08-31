@@ -17,19 +17,16 @@ export default function Home() {
         <div>
           <img
             className="w-full lg:h-[100vh] sm:h-[80vh]"
-            src="/images/hero.png"
+            src="/images/hero1.jpg"
             alt=""
           />
-          <div className="bg-white absolute lg:top-[30%] top-28 lg:left-20 left-7 lg:w-[30%]">
+          <div className="bg-white rounded-md absolute lg:top-[30%] top-28 lg:left-20 left-7 lg:w-[30%]">
             <div className="flex justify-evenly text-sm border-b p-4 border-gray">
               <div className="w-1/2 text-center">
                 <img className="w-6 mx-auto" src="/images/drive.png" alt="" />
-                <p>Drive or Deliver</p>
+                <p>Drive</p>
               </div>
-              <div className="w-1/2 text-center">
-                <img className="w-6 mx-auto" src="/images/eat.png" alt="" />
-                <p>Order & Eat</p>
-              </div>
+
               <div className="w-1/2 text-center">
                 <img
                   className="w-6 mx-auto my-1"
@@ -37,6 +34,10 @@ export default function Home() {
                   alt=""
                 />
                 <p>Ride</p>
+              </div>
+              <div className="w-1/2 text-center">
+                <img className="w-6 mx-auto" src="/images/eat.png" alt="" />
+                <p>Cabby Munchies Coming Soon</p>
               </div>
             </div>
             <div className="p-4 text-center">
@@ -81,10 +82,10 @@ export default function Home() {
                 Guidelines, we're committed to helping to create a safe
                 environment for our users.
               </p>
-              <div className="flex justify-between text-blue-500 underline">
+              {/* <div className="flex justify-between text-blue-500 underline">
                 <p>Read About our Community Guidelines</p>
-                {/* <p>See all safety features</p> */}
-              </div>
+                <p>See all safety features</p>
+              </div> */}
             </div>
             <div className="lg:w-[48%] lg:mt-0 sm:mt-10 md:mt-10">
               <img src="/images/Rectangle13.png" className="w-full" alt="" />
@@ -92,12 +93,11 @@ export default function Home() {
                 Setting 30,000+ Cities in Motion
               </h4>
               <p className="text-base my-3 lg:w-[70%]">
-                The app is available in thousands of cities worldwide, so you
-                can request a ride even when you’re far from home.
+                The App is available only in Australia and we'll be going around the world soon
               </p>
-              <div className="flex justify-between text-blue-500 underline mt-9">
+              {/* <div className="flex justify-between text-blue-500 underline mt-9">
                 <p>View All Cities</p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="lg:flex justify-between mt-20">

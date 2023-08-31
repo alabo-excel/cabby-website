@@ -15,7 +15,7 @@ const about = () => {
       <Layout>
         <div className="sm:mt-16">
           <img
-            src="/images/about.jpg"
+            src="/images/hero.jpg"
             className="w-full lg:h-[90vh] h-[40vh]"
             alt=""
           />
@@ -42,16 +42,15 @@ const about = () => {
         </div>
         <div className="lg:py-20 px-4 lg:px-40 relative">
           <img src="/images/ceo.png" className="w-full" alt="" />
-          <div className="lg:absolute lg:text-white top-[30%] left-80 ">
+          <div className="lg:absolute lg:text-white top-[20%] left-52 ">
             <h1 className="lg:text-4xl text-2xl font-bold w-64">
               A Message From Our CEO
             </h1>
-            <p className="lg:my-5 my-2 lg:w-72">
-              Read about our team’s commitment to provide everyone on our global
-              platform with the technology that can help them move ahead.
+            <p className="lg:my-5 my-2 lg:w-[40%]">
+              Hey team! I wanted to take a moment to personally thank each and every one of you for being a crucial part of the Cabby Safe Ride family. Your dedication and commitment to providing top-notch service to our users in Australia is truly commendable. We're here to make a difference in people's lives by offering safe and reliable transportation options. Together, we're building something special, and I couldn't be more proud to have you on board. Keep up the fantastic work, and let's continue to make Cabby the number one choice for a smooth and secure ride experience!
             </p>
-            <button className="p-3 bg-black rounded-md text-white">
-              Nash Message
+            <button className="p-3 bg-black capitalize rounded-md text-white">
+              Abbas Brown
             </button>
           </div>
         </div>

@@ -66,10 +66,18 @@ const Footer = () => {
       </div>
       <div className="flex justify-between">
         <div className="flex w-1/2 justify-between mt-4">
-          <img src="/images/icons/Vector-4.png" alt="" />
-          <img src="/images/icons/Vector-3.png" alt="" />
-          <img src="/images/icons/Vector-2.png" alt="" />
-          <img src="/images/icons/Vector-1.png" alt="" />
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=61550700422406&mibextid=D4KYlr">
+            <img src="/images/icons/Vector-4.png" alt="" />
+          </a>
+          <a target="_blank" href="https://instagram.com/cabbysaferide?igshid=MjEwN2IyYWYwYw==">
+            <img src="/images/icons/Vector-3.png" alt="" />
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/abbas-brown-b3778b28a?trk=contact-info">
+            <img src="/images/icons/Vector-2.png" alt="" />
+          </a>
+          <a target="_blank" href="https://twitter.com/cabbyrideshare">
+            <img src="/images/icons/Vector-1.png" alt="" />
+          </a>
           {/* <img src="/images/icons/Vector.png" alt="" /> */}
         </div>
         {/* <div className="flex my-auto sm:mt-8">
@@ -78,12 +86,16 @@ const Footer = () => {
         </div> */}
       </div>
 
-      <div className="flex mt-6 justify-between ">
+      <div className="lg:flex mt-6 justify-between ">
         <p>© 2023 Cabby Technologies Inc.</p>
         <div className="flex justify-between w-80">
-          <p>Privacy</p>
-          <p>Accessibility</p>
-          <p>Terms</p>
+          <Link href={'/privacy'}>
+            <p>Privacy</p>
+          </Link>
+          <Link href={'/terms-and-condition'}>
+            <p>Terms and Conditions</p>
+          </Link>
+
         </div>
       </div>
     </div>

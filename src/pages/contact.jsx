@@ -12,7 +12,7 @@ const Contact = () => {
   const handleFormSubmit = (e) => {
     setLoading(true)
     e.preventDefault();
-    fetch("https://formsubmit.co/ajax/email", {
+    fetch("https://formsubmit.co/ajax/support@cabbynash.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

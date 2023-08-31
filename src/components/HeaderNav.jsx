@@ -5,10 +5,19 @@ import { Dropdown } from "rsuite";
 const HeaderNav = () => {
   return (
     <div>
-      <div className="lg:flex fixed justify-between top-0 w-full bg-black lg:px-20 py-4 text-white z-10 sm:hidden md:hidden">
-        <div className="flex w-96 justify-between">
+      <div className="lg:flex fixed text-sm justify-between top-0 w-full bg-black lg:px-20 py-4 text-white z-10 sm:hidden md:hidden">
+        <div className="flex w-[30%] justify-between">
           <Link href={"/"}>
             <img src="/images/logo.png" alt="" />
+          </Link>
+          <Link href={'/about'}>
+            <p className="my-2">About Us</p>
+          </Link>
+          <Link href={'/our-offering'}>
+            <p className="my-2">Services</p>
+          </Link>
+          <Link href={'/contact'}>
+            <p className="my-2">Contact</p>
           </Link>
           {/* <Dropdown title="Company" >
             <Dropdown.Item>New File</Dropdown.Item>
@@ -22,23 +31,16 @@ const HeaderNav = () => {
           {/* <p className="my-auto">Safety</p>
           <p className="my-auto">Help</p> */}
         </div>
-        <div className="w-[40%] flex justify-between">
+        <div className="w-[18%] flex justify-between">
           {/* <p className="my-auto">Products</p>
           <p className="my-auto">Login</p> */}
-          <Link href={'/about'}>
-            <p className="my-2">About Us</p>
-          </Link>
-          <Link href={'/our-offering'}>
-            <p className="my-2">Services</p>
-          </Link>
+
 
           <Link href={'/how-to-use'}>
             <p className="my-2">How to Use</p>
           </Link>
 
-          <Link href={'/contact'}>
-            <p className="my-2">Contact</p>
-          </Link>
+
           <Link href={'/#download'}>
             <button className="bg-white rounded-full p-2 px-6 text-black">
               Get App
