@@ -41,7 +41,7 @@ const about = () => {
           </button> */}
         </div>
         <div className="lg:py-20 px-4 lg:px-40 relative">
-          <img src="/images/ceo.png" className="w-full" alt="" />
+          <img src="/images/msg.jpg" className="w-full object-cover lg:h-[500px]" alt="" />
           <div className="lg:absolute lg:text-white top-[20%] left-52 ">
             <h1 className="lg:text-4xl text-2xl font-bold w-64">
               A Message From Our CEO

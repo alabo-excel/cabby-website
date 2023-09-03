@@ -48,7 +48,7 @@ export default function Home() {
                 Drive on The Platform With The Largest <br /> Network of Active
                 Riders.
               </p>
-              <Link href={'/'}>
+              <Link href={'/how-to-use'}>
                 <button className="rounded-md bg-black text-white p-3 my-4 w-40">
                   How it Works
                 </button>
