@@ -19,7 +19,7 @@ const about = () => {
             className="w-full lg:h-[90vh] h-[40vh]"
             alt=""
           />
-          <div className="lg:w-80 text-center absolute lg:top-[40%] top-40 lg:left-44 text-black text-5xl font-extrabold">
+          <div className="lg:w-80 text-center absolute lg:top-[40%] top-40 lg:left-44 text-[#D51986]  text-5xl font-extrabold">
             About Cabby
           </div>
         </div>
