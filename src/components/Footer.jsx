@@ -10,7 +10,7 @@ const Footer = () => {
         </Link>
         {/* <p className="my-auto">Bangladesh Ride Sharing Information</p> */}
       </div>
-      <p className="my-3">Visit Cabby Help Center</p>
+      {/* <p className="my-3">Visit Cabby Help Center</p> */}
       <div className="flex sm:flex-wrap lg:flex-nowrap md:flex-wrap jsutify-between">
         <div className="lg:w-1/2 w-full my-6">
           <h2 className="font-bold text-2xl sm:text-xl my-4">Company</h2>

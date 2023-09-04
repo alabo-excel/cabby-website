@@ -38,12 +38,7 @@ const ouroffering = () => {
                 transit, bikes, and scooters.
               </div>
               <div className="lg:w-[45%] sm:mt-4">
-                We also connect consumers and restaurants, grocers, and other
-                merchants so they can buy and sell meals, groceries, and other
-                items, then we match them with independent delivery service
-                providers. Plus, Cabby connects shippers and carriers in the
-                freight industry. Our technology helps people connect and move
-                in over 70 countries and 10,000 cities around the world.
+                Cabby is only in Australia but going around the soon is going be the best taxi service
               </div>
             </div>
           </div>
